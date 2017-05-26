@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>进度条</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .canvas
+        {
+
+            background-color: #ccc;
+
+        }
+        div
+        {
+            margin: 0 auto;
+            width: 800px;
+        }
+        mark{
+            position: absolute;
+            top: 146px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <canvas class="canvas" width="800" height="200"></canvas>
+        <mark class="mark">0</mark>
+        <button class="canvasbtn">开始加载</button>
+    </div>
+    <script src="canvas.js"></script>
+</body>
+</html>
